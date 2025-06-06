@@ -64,7 +64,7 @@ const Services = ({isDarkMode}) => {
       href="https://github.com/Lyco0" target='_blank' className='w-max flex items-center justify-center gap-2
       text-gray-700 border-[0.5px] border-gray-700 rounded-full py-3 px-10 mx-auto
       my-20 hover:bg-[#fcf4ff] duration-500 dark:text-white dark:border-white dark:hover:bg-[#2a004a]'>
-        Get all my projects on GitHub<Image src={isDarkMode ? assets.right_arrow_bold_dark:assets.right_arrow_bold} alt='Rightarrow'
+        Explore all my projects on GitHub.<Image src={isDarkMode ? assets.right_arrow_bold_dark:assets.right_arrow_bold} alt='Rightarrow'
         className='w-4'/>
       </motion.a>
 
