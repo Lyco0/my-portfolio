@@ -1,26 +1,41 @@
 @import "tailwindcss";
-
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+@custom-variant dark (&:where(.dark, .dark *));
+   
+*{
+  font-family: Outfit;
+}
+.light-hover:hover {
+  background-color: #fcf4ff;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+.dark-hover:hover {
+  background-color: #2a004a;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+.dark-theme {
+  background-color: #11001F;
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+/* Font Families */
+.font-outfit {
+  font-family: 'Outfit', sans-serif;
+}
+
+.font-ovo {
+  font-family: 'Ovo', serif;
+}
+
+/* Box Shadows */
+.hover-customb-shadow:hover {
+  box-shadow: 4px 4px 0 #000;
+}
+
+.dark .hover-customw-shadow:hover {
+  box-shadow: 4px 4px 0 #fff;
+}
+
+/* globals.css */
+.grid-cols-auto {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 }
