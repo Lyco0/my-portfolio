@@ -51,8 +51,8 @@ A simple and easy Next.js personal portfolio website hosted and managed using Va
 ## Screenshots🖼️
 
 <p align="center">
-  <img src="./assets/homepg.png" width="22%" style="margin: 1%" />
-  <img src="./assets/contactpg.png" width="22%" style="margin: 1%" />
+  <img src="./assets/homepg.png" width="50%" style="margin: 1%" />
+  <img src="./assets/contactpg.png" width="50%" style="margin: 1%" />
 </p>
 
 
