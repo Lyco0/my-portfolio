@@ -11,7 +11,7 @@ const Header = () => {
       initial={{scale: 0}}
       whileInView={{scale: 1}}
       transition={{duration: 0.8, type: 'spring', stiffness:100}}>
-        <Image src={assets.profile_img} alt=''
+        <Image src={assets.profileimg} alt=''
         className='rounded-full w-32'/>
       </motion.div>
         <motion.h3       
@@ -19,7 +19,7 @@ const Header = () => {
         whileInView={{y: 0, opacity: 1}}
         transition={{duration: 0.6, delay: 0.3}}
           className='flex items-end gap-2 text-xl md:text-2xl md-3 font-Ovo'>
-            Hi! I'm Pratik Bairagi  <Image src={assets.hand_icon} alt=''
+            Hi! I'm Pratik Bairagi (a.k.a Lyco)  <Image src={assets.hand_icon} alt=''
             className='rounded-full w-6'/>
         </motion.h3>
         <motion.h1
@@ -27,15 +27,16 @@ const Header = () => {
           whileInView={{y: 0, opacity: 1}}
           transition={{duration: 0.8, delay: 0.5}}
           className='text-3xl sm:text-6xl lg:text-[66px] font-Ovo'>
-            I build and create apps and websites for fun and learning.
+            A "Tech Geek" and a HardCore "Gamer" who also loves "Cats".
         </motion.h1>
         <motion.p
         initial={{opacity: 0}}
         whileInView={{opacity: 1}}
         transition={{duration: 0.6, delay: 0.7}}
         className='max-w-2xl mx-auto font-Ovo'>
-            I'm a developer who enjoys building (and occasionally designing) digital experiences. 
-            Currently, I'm focused on learning new technologies and creating meaningful projects.
+            Hi! I'm a Developer and a Gamer who enjoys building and designing. 
+            If you are a gamer sign me up for a gaming session. 
+            Also I love cats if you didn't know that till now.
         </motion.p>
 
         <div className='flex flex-coll sm:flex-row items-center gap-4 mt-4'>

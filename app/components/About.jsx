@@ -34,7 +34,7 @@ const About = ({isDarkMode}) => {
             whileInView={{opacity:1, scale:1}}
             transition={{duration:0.6}}
             className='w-64 sm:w-80 rounded-3xl max-w-none'>
-                <Image src={assets.user_image} alt='user' className='w-full
+                <Image src={assets.user_img} alt='user' className='w-full
                 rounded-3xl' />
             </motion.div>
             <motion.div
@@ -43,10 +43,9 @@ const About = ({isDarkMode}) => {
             transition={{duration:0.6, delay:0.8}}
             className='flex-1'>
                 <p className='mb-10 max-w-2xl font-Ovo'>
-                    I am a passionate and driven BCA Graduate with a knack 
-                    for coding and a love for turning innovative ideas into reality. 
-                    My journey in the world of technology began with a curiosity-driven 
-                    dive into programming languages like Python, Java, and C. 
+                    Hi!.. I'm a MCA Graduate who Loves tech, Cats and specially Gaming.
+                    Just Download my resume if you want to know more of my skills and experience.
+                    And if you like what I do, lets hangout and have a gaming session.
                 </p>
 
                 <motion.ul  

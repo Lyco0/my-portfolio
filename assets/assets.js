@@ -1,4 +1,3 @@
-import user_image from './user-image.png';
 import code_icon from './code-icon.png';
 import code_icon_dark from './code-icon-dark.png';
 import edu_icon from './edu-icon.png';
@@ -15,7 +14,6 @@ import logo from './logo.png';
 import logo_dark from './logo_dark.png';
 import mail_icon from './mail_icon.png';
 import mail_icon_dark from './mail_icon_dark.png';
-import profile_img from './profile-img.png';
 import download_icon from './download-icon.png';
 import hand_icon from './hand-icon.png';
 import header_bg_color from './header-bg-color.png';
@@ -36,16 +34,20 @@ import framer from './framer.png';
 import mysql from './mysql.png';
 import androidstudio from './androidstudio.png';
 import github from './github.png';
+import profileimg from './profile11.png';
+import user_img from './Me.png';
 
 export const assets = {
-    user_image,
     code_icon,
+    profileimg,
+    user_img,
     code_icon_dark,
     edu_icon,
     edu_icon_dark,
     project_icon,
     project_icon_dark,
     vscode,
+    firebase,
     figma,
     git,
     mongodb,
@@ -59,7 +61,6 @@ export const assets = {
     logo_dark,
     mail_icon,
     mail_icon_dark,
-    profile_img,
     download_icon,
     hand_icon,
     header_bg_color,
@@ -97,7 +98,7 @@ export const workData = [
 
 export const infoList = [
     { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Languages', description: 'HTML, CSS, JavaScript, Python, C, Java' },
-    { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Education', description: 'Bachelor of Computer Applications (BCA)' },
+    { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Education', description: 'Master of Computer Applications (MCA)' },
     { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Projects', description: 'Built more than 5 projects' },
 ];
 
